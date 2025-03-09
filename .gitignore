@@ -48,3 +48,5 @@ Thumbs.db
 *.swp
 *.swo
 */*env
+step-one/server/request.http
+server-hono/server/request.http
