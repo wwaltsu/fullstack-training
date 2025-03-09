@@ -1,0 +1,50 @@
+# Node.js / Deno
+node_modules/
+deno.lock
+deno_cache/
+.deno/
+
+# TypeScript / JavaScript build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Svelte
+.svelte-kit/
+*.svelte-kit
+
+# TailwindCSS
+.tailwind/
+
+# PostgreSQL
+pgdata/
+*.pgsql
+*.pgdump
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-compose.test.yml
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Playwright / Testing
+playwright-report/
+test-results/
+.vscode/
+coverage/
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*/*env
